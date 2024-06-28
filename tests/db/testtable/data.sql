@@ -26,7 +26,7 @@ INSERT INTO subsidiary (custname, subsname, contractnum, contractdate, signer, s
 
 -- spec
 INSERT INTO spec (ordernum, nextspecnum, subsnam) VALUES ('102900', (SELECT nextspecnum FROM currentspecnum WHERE custname = 'Старатели'), 'Старатели');
-INSERT INTO spec (ordernum, nextspecnum, subsnam) VALUES ('102901', (SELECT nextspecnum FROM currentspecnum WHERE custname = 'МАРС'), 'МАРС');
-INSERT INTO spec (ordernum, nextspecnum, subsnam) VALUES ('102902', (SELECT nextspecnum FROM currentspecnum WHERE custname = 'МАРС'), 'МлРС');
+INSERT INTO spec (ordernum, nextspecnum, subsnam) VALUES ('102901', (SELECT nextspecnum FROM currentspecnum WHERE custname = 'МАРС'), 'Марс-Чердаклы');
+INSERT INTO spec (ordernum, nextspecnum, subsnam) VALUES ('102902', (SELECT nextspecnum FROM currentspecnum WHERE custname = 'МАРС'), 'Марс-Ситенка');
 
 
