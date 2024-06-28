@@ -60,7 +60,7 @@ CREATE TABLE spec (
 );
 
 CREATE TABLE productdata (
-    ordernum TEXT UNIQUE NOT NULL,
+    ordernum TEXT NOT NULL,
     article TEXT NOT NULL,
     descr TEXT NOT NULL,
     units TEXT NOT NULL,
